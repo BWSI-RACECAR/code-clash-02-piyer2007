@@ -39,7 +39,7 @@ class Solution:
                 while x > 0:
                     sum += x%10
 
-                    x = round((x/10)+0.499)
+                    x = math.floor((x/10)+0.499)
                     x = x-1
                 x = sum
 
