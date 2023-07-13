@@ -38,7 +38,8 @@ class Solution:
                 sum = 0
                 while x > 0:
                     sum += x%10
-                    x = round((x/10)+0.5)
+
+                    x = round((x/10)+0.499)
                     x = x-1
                 x = sum
 
