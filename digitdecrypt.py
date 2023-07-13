@@ -39,8 +39,7 @@ class Solution:
                 while x > 0:
                     sum += x%10
 
-                    x = round((x+0.5)/10))-1
-
+                    x = round((x/10)+0.5)-1
                 x = sum
 
             return x
